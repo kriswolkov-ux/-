@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data;
 
 namespace ConsoleApp1
@@ -13,12 +13,12 @@ namespace ConsoleApp1
             students.Columns.Add("Name", typeof(string));
             students.Columns.Add("Age", typeof(int));
             students.Columns.Add("GroupId", typeof(int));
-            students.Rows.Add(1, "Эпштейн Витя", 190, 101);
+            students.Rows.Add(1, "Эпштейн Витя", 401, 101);
             students.Rows.Add(2, "Матьювели Андрей", 200, 166);
-            students.Rows.Add(3, "Сидр Матвей", 180, 112);
-            students.Rows.Add(4, "Соколов Артем", 180, 131);
-            students.Rows.Add(5, "Андерграунд Сергей", 210, 174);
-            students.Rows.Add(6, "Ямакаси Максим", 190, 142);
+            students.Rows.Add(3, "Сидр Матвей", 176, 112);
+            students.Rows.Add(4, "Соколов Артем", 188, 131);
+            students.Rows.Add(5, "Андерграунд Сергей", 242, 174);
+            students.Rows.Add(6, "Ямакаси Максим", 191, 142);
 
             Console.WriteLine(" Исходный список студентов ");
             PrintTable(students);
