@@ -40,7 +40,7 @@ namespace ConsoleApp1
             students.Rows.Add(4, "Сокол Eyes", 20, 2);
             students.Rows.Add(5, "Андерграунд Сергей", 22, 3);
             students.Rows.Add(6, "Ямакаси Максим", 19, 3);
-            students.Rows.Add(7, "Книга Братка", 18, 1);
+            students.Rows.Add(7, "Книга Нига", 18, 1);
             students.Rows.Add(8, "Петренько Петронько", 20, 2);
             students.Rows.Add(9, "Шаман Рахман", 21, 3);
             students.Rows.Add(10, "Артемий Лебедев", 19, 1);
@@ -80,7 +80,7 @@ namespace ConsoleApp1
                 }
 
                 DataRow selectedGroup = foundGroups[0];
-                Console.WriteLine($"\n--- Студенты группы: {selectedGroup["Name"]} ---");
+                Console.WriteLine($"\n Студенты группы: {selectedGroup["Name"]} ");
 
                 DataRow[] groupStudents = selectedGroup.GetChildRows(relation);
 
